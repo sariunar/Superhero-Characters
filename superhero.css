@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#superheroContainer{
+    width: 100%;
+    min-width: 450px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero{
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero__name{
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.hero__btn{
+    width: 90px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+}
+.hero__universe,
+.hero__alterego,
+.hero__occupation,
+.hero__friends,
+.hero__superpowers{
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+.hero__img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.hero__info{
+    display: none;
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.hero__p{
+    font-style: italic;
+    font-weight: 600;
+}
+.hero__form_stars{
+    margin-top: 20px;
+}
+.icon {
+    fill: black ;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -3px;
+    left: 1px;
+}
+.container__label {
+    position: relative;
+}
+.container__input {
+    position: relative;
+    opacity: 0;
+    z-index: 1;
+}
