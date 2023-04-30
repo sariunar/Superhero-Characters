@@ -14,6 +14,6 @@ Page Link: https://sariunar.github.io/Superhero-Characters/superhero.html
 
 Stack:
 
-✓   HTML
-✓   CSS
-✓   JS
+    ✓   HTML
+    ✓   CSS
+    ✓   JS
